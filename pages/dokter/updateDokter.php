@@ -7,7 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nama = $_POST["nama"];
     $alamat = $_POST["alamat"];
     $no_hp = $_POST["no_hp"];
-    $poli = $_POST["poli"];
     $password = $_POST["password"];
 
     // Query untuk melakukan update data obat
@@ -15,8 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         nama = '$nama',
         password = '$password', 
         alamat = '$alamat',
-        no_hp = '$no_hp',
-        id_poli = $poli
+        no_hp = '$no_hp'
         WHERE id = '$id'";
 
     // Eksekusi query
