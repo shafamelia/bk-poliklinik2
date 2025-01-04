@@ -1,5 +1,5 @@
 # Instalasi
-1. Unduh repository: https://github.com/shafamelia/bk-poliklinik
+1. Unduh repository: https://github.com/shafamelia/bk-poliklinik2
 
 2. Siapkan server web dan konfigurasikan agar menunjuk ke direktori publik proyek.
 
@@ -8,8 +8,12 @@
 4. Buka aplikasi di browser web Anda untuk memulai.
 
 # Login dokter
-Username : Amelia
-Password : 1234
+Username : Adi
+Password : Semarang
+
+# Login pasien
+Username : Ifan
+Password : Semarang
 
 # Login Admin
 Username : admin
