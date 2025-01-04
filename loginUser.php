@@ -106,7 +106,7 @@
 <body>
     <div class="login-container">
         <div class="left-container">
-            <img src="assets/images/logo_poli.jpg" alt="Login Image">
+            <img src="assets/images/logopalang.png" alt="Login Image">
         </div>
         <div class="right-container">
             <div class="login-form">

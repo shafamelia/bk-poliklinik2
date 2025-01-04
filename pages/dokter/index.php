@@ -167,19 +167,7 @@
                                                             <label for="no_hp">No HP</label>
                                                             <input type="text" class="form-control" id="no_hp" name="no_hp" value="<?php echo $data['no_hp'] ?>" required>
                                                         </div>
-                                                        <div class="form-group">
-                                                            <label for="poli">Poli</label>
-                                                            <select class="form-control" id="poli" name="poli" disabled>
-                                                                <?php
-                                                                $queryPoli = "SELECT * FROM poli";
-                                                                $resultPoli = mysqli_query($mysqli, $queryPoli);
-                                                                while ($poli = mysqli_fetch_assoc($resultPoli)) {
-                                                                    $selected = $poli['id'] == $data['id_poli'] ? 'selected' : '';
-                                                                ?>
-                                                                    <option value="<?php echo $poli['id'] ?>" <?php echo $selected; ?>><?php echo $poli['nama_poli'] ?></option>
-                                                                <?php } ?>
-                                                            </select>
-                                                        </div>
+                                                        
                                                         <button type="submit" class="btn btn-success">Simpan</button>
                                                     </form>
                                                 </div>
